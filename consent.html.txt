@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Consent</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="center">
+
+  <div class="card">
+    <h2>Platform Notice</h2>
+    <p>
+      This platform uses <b>virtual coins</b> for gameplay.<br>
+      Coins have no guaranteed cash value.
+    </p>
+
+    <button onclick="acceptConsent()">I Accept</button>
+  </div>
+
+  <script>
+    function acceptConsent() {
+      localStorage.setItem("consent", "yes");
+      localStorage.setItem("coins", "1000");
+      window.location.href = "index.html";
+    }
+  </script>
+
+</body>
+</html>

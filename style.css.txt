@@ -1,0 +1,29 @@
+.game-area {
+  padding: 20px;
+  text-align: center;
+}
+
+.timer {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #58a6ff;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.choices button {
+  min-width: 90px;
+  font-size: 16px;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}

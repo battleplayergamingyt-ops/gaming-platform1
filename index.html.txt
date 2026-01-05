@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pulse Pick</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../style.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h2>Pulse Pick</h2>
+  <div id="wallet">Coins: 0</div>
+</header>
+
+<div class="game-area">
+  <div class="timer" id="timer">30</div>
+
+  <div class="choices">
+    <button onclick="play('LOW')">LOW</button>
+    <button onclick="play('MID')">MID</button>
+    <button onclick="play('HIGH')">HIGH</button>
+  </div>
+
+  <div id="result"></div>
+</div>
+
+<script src="../../core/config.js"><
